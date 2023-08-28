@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Soal Mata Kuliah</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Generate Soal Mata Kuliah</h1>
+
+    <label for="matkul">Pilih Mata Kuliah:</label>
+    <select id="matkul">
+        <option value="pancasila">Pancasila</option>
+        <option value="agama">Agama</option>
+        <!-- Tambahkan mata kuliah lain di sini -->
+    </select>
+
+    <label for="jenisSoal">Pilih Jenis Soal:</label>
+    <select id="jenisSoal">
+        <option value="pilihanGanda">Pilihan Ganda</option>
+        <option value="essai">Essai</option>
+    </select>
+
+    <button id="generateBtn">Generate Soal</button>
+
+    <div id="soalContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-top: 20px;
+    color: #333;
+}
+
+select, button {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #003366;
+    transform: scale(0.95);
+}
+
+#soalContainer {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #444;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#cekJawabanBtn {
+    margin-top: 10px;
+    padding: 8px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#cekJawabanBtn:hover {
+    background-color: #218838;
+}
+
+#hasilJawaban {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Tema Warna 1 */
+.theme1 {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.theme1 button {
+    background-color: #007bff;
+}
+
+.theme1 button:hover {
+    background-color: #0056b3;
+}
+
+/* Tema Warna 2 */
+.theme2 {
+    background-color: #292b2c;
+    color: #ffffff;
+}
+
+.theme2 button {
+    background-color: #d9534f;
+}
+
+.theme2 button:hover {
+    background-color: #c9302c;
+}
